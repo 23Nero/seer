@@ -14,7 +14,7 @@
    <enum>Qt::NoContextMenu</enum>
   </property>
   <property name="windowTitle">
-   <string>Seer Debugger</string>
+   <string>Neko Debugger</string>
   </property>
   <widget class="SeerGdbWidget" name="gdbWidget"/>
   <widget class="QMenuBar" name="menubar">
@@ -204,7 +204,7 @@
     <string>Quit</string>
    </property>
    <property name="statusTip">
-    <string>Quit the  Seer debugger.</string>
+    <string>Quit the  Neko debugger.</string>
    </property>
   </action>
   <action name="actionGdbRestart">

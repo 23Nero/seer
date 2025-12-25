@@ -1514,9 +1514,9 @@ void SeerMainWindow::handleRecordSettingsChanged () {
 void SeerMainWindow::handleChangeWindowTitle (QString title) {
 
     if (title == "") {
-        setWindowTitle("Seer Debugger");
+        setWindowTitle("Neko Debugger");
     }else{
-        setWindowTitle("Seer Debugger - '" + title + "'");
+        setWindowTitle("Neko Debugger - '" + title + "'");
     }
 }
 
